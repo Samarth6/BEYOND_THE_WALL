@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Discussion Beyond the Wall</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="conversation">
+      <div class="message jon">
+        <p><strong>Jon Snow:</strong> North of the Wall, the nights are filled with icy silence.</p><key>icy</key>
+      </div>
+        <!-- <div class='message John"> <p>John: The key to victory may not always be a single word. "Fwcwgvo.djb"</p><key>Word</key> </div>-->
+      <div class="message ygritte">
+        <p>Y<strong>gritte:</strong> Aye, wildlings roam freely under the starlit sky, embracing danger.</p><key>sky</key>
+      </div>
+      <div class="message tormund">
+        <p><strong>Tormund Giantsbane:</strong> Whispers of the Others, ice-wraiths, they haunt the twilight.</p><key>light</key>
+      </div>
+      <div class="message jon">
+        <p><strong>Jon Snow:</strong> Yet amidst the frozen dread, there's a spark of hope, an ember.</p><key>icy</key>
+      </div>
+      <div class="message ygritte">
+        <p><strong>Ygritte:</strong> Will fire clash with frost? Will legends dance with death?</p><key>icy</key>
+      </div>
+      <div class="message tormund">
+        <p><strong>Tormund Giantsbane:</strong> Beyond the Wall, destiny bides its time, awaiting.</p><key>icy</key>s
+      </div>
+       <!-- <div class='message Riya'><p>The key to victory may not always be a single word Vigenere</p><key>MILK</key></div>-->
+    </div>
+  </div>
+</body>
+</html>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0e0e0e;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh;
+  border: 5px solid yellow; /* Added yellow border */
+}
+
+.conversation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  max-width: 70%;
+  position: relative;
+  border-left: 5px solid transparent; /* Adding side border */
+}
+
+.jon {
+  align-self: flex-start;
+  background-color: #265c6f;
+  border-color: #265c6f; /* Adding border color for Jon */
+}
+
+.ygritte {
+  align-self: flex-end;
+  background-color: #c25b56;
+  border-color: #c25b56; /* Adding border color for Ygritte */
+}
+
+.tormund {
+  align-self: flex-start;
+  background-color: #845ec2;
+  border-color: #845ec2; /* Adding border color for Tormund */
+}
+
+.message p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+</style>
